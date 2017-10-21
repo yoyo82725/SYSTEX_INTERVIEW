@@ -1,0 +1,74 @@
+body { background-color:#EAEAEA; }
+
+/* phone 寬350以下 */
+@media all and (max-width:350px) {
+	.textRWD16 { font-size: 11.3362px !important; }
+	.textRWD14 { font-size: 9.91915px !important; }
+	.textRWD10 { font-size: 7.08511px !important; }
+}
+
+/* phone */
+@media all and (max-width:470px) {
+
+	#RWD_Mail { width:100%; margin:0px auto; font-family:'微軟正黑體', 'Open Sans', 'cwTeXHei', 'Noto Sans TC', sans-serif; }
+	#RWD_Mail>.container { max-width:470px; margin:auto; background-color:#ffffff; }
+	#RWD_Mail>.container>.big_block { width:100%; max-width:470px; margin:0px auto; }
+	#RWD_Mail>.container>.logo { text-align:center; }
+	#RWD_Mail>.container>.logo img { width:27.87234042553191%; }
+	#RWD_Mail>.container>.yellow_line { background-color:#F9CF00; padding-bottom:1.06382978723404%; }
+	#RWD_Mail>.container>.banner {  }
+	#RWD_Mail>.container>.banner img { width:100%; }
+	#RWD_Mail>.container>.content { padding:0 2.97872340425532%; }
+	#RWD_Mail>.container>.content>.title { font-weight: bold; color:#272F38; text-align:center; font-size:16px; padding-top:3.82978723404255%; padding-bottom:3.19148936170213%; }
+	#RWD_Mail>.container>.content>.text1 { text-align:right; line-height: 1.5; letter-spacing: .18px; padding-bottom:1.06382978723404%; }
+	#RWD_Mail>.container>.content>.text2 { padding-bottom:2.5531914893617%; }
+	#RWD_Mail>.container>.content>.text3 { padding-bottom:4.25531914893617%; }
+	#RWD_Mail>.container>.content>.btn { margin-bottom:4.25531914893617%; border:2px solid #fad002; padding:3.40425531914894% 0; text-align:center; text-decoration:none; display:block; color:#272F38; }
+	#RWD_Mail>.container>.content>.img1 img { width:100%; }
+	#RWD_Mail>.container>.content>.img1_expblock { background-color:#f9cf00; text-align:center; padding:4.25531914893617% 0; line-height:2; }
+	#RWD_Mail>.container>.content>.img1_expblock img { width:27.82805429864253%; }
+	#RWD_Mail>.container>.content>.text4 { background-color:#eaeaec; text-align:center; padding:2.12765957446809% 0; margin:4.25531914893617% 0; }
+	#RWD_Mail>.container>.content>.item1 { border:1px solid #ededed; text-align:center; padding-top:4.25531914893617%; padding-bottom:6.38297872340426%; margin-bottom:4.25531914893617%; line-height:2; }
+	#RWD_Mail>.container>.content>.item1 img { width:34.09090909090909%; }
+	#RWD_Mail>.container>.content>.item2 { border:1px solid #ededed; text-align:center; padding-top:4.25531914893617%; padding-bottom:6.38297872340426%; margin-bottom:4.25531914893617%; line-height:2; }
+	#RWD_Mail>.container>.content>.item2 img { width:34.09090909090909%; }
+
+	#RWD_Mail>.container>.footer { background-color:#273039; }
+	#RWD_Mail>.container>.footer>.imgs_block { text-align:center; padding:4.25531914893617% 0; }
+	#RWD_Mail>.container>.footer>.imgs_block>.two { margin:0 8.51063829787234%; }
+	#RWD_Mail>.container>.footer>.imgs_block>.one img { width:3.40425531914894%; }
+	#RWD_Mail>.container>.footer>.imgs_block>.two img { width:5.74468085106383%; }
+	#RWD_Mail>.container>.footer>.imgs_block>.thr img { width:6.17021276595745%; }
+	#RWD_Mail>.container>.footer>.links { font-size:10px; text-align:center; color:#FACF00; margin-bottom:4.25531914893617%; }
+	#RWD_Mail>.container>.footer>.text { font-size:10px; text-align:center; color:#FFFFFF; padding-bottom:5.31914893617021%; line-height: 1.5; }
+
+}
+
+/* pc */
+@media all and (min-width:471px) {
+
+	#RWD_Mail { width:100%; min-width:640px; margin:0px auto; font-family:'微軟正黑體', 'Open Sans', 'cwTeXHei', 'Noto Sans TC', sans-serif; }
+	#RWD_Mail>.container { width:640px; margin:auto; background-color:#ffffff; }
+	#RWD_Mail>.container>.big_block { width:100%; min-width:640px; margin:0px auto; }
+	#RWD_Mail>.container>.logo { text-align:center; }
+	#RWD_Mail>.container>.yellow_line { background-color:#F9CF00; height:5px; }
+	#RWD_Mail>.container>.banner {  }
+	#RWD_Mail>.container>.content { padding:0 30px; }
+	#RWD_Mail>.container>.content>.title { font-weight: bold; color:#272F38; text-align:center; font-size:16px; padding-top:18px; padding-bottom:15px; }
+	#RWD_Mail>.container>.content>.text1 { text-align:right; line-height: 1.5; letter-spacing: .18px; padding-bottom:5px; }
+	#RWD_Mail>.container>.content>.text2 { padding-bottom:12px; }
+	#RWD_Mail>.container>.content>.text3 { padding-bottom:20px; width:95%; }
+	#RWD_Mail>.container>.content>.btn { border:2px solid #fad002; padding:16px 0; text-align:center; width:276px; margin:auto; margin-bottom:20px; text-decoration:none; display:block; color:#272F38; }
+	#RWD_Mail>.container>.content>.img1 { width:290px; height:290px; float:left; }
+	#RWD_Mail>.container>.content>.img1_expblock { background-color:#f9cf00; text-align:center; line-height:2; width:290px; height:191px; float:left; padding-top:99px; }
+	#RWD_Mail>.container>.content>.text4 { background-color:#eaeaec; text-align:center; padding:10px 0; margin:20px 0; }
+	#RWD_Mail>.container>.content>.item1 { border:1px solid #ededed; text-align:center; padding-top:20px; line-height:1.7; width:280px; height:300px; float:left; margin-right:15px; }
+	#RWD_Mail>.container>.content>.item2 { border:1px solid #ededed; text-align:center; padding-top:20px; line-height:1.7; width:280px; height:300px; float:left; margin-bottom:20px; }
+
+	#RWD_Mail>.container>.footer { background-color:#273039; }
+	#RWD_Mail>.container>.footer>.imgs_block { text-align:center; padding:20px 0; }
+	#RWD_Mail>.container>.footer>.imgs_block>.two { margin:0 40px; }
+	#RWD_Mail>.container>.footer>.links { font-size:10px; text-align:center; color:#FACF00; margin-bottom:20px; }
+	#RWD_Mail>.container>.footer>.text { font-size:10px; text-align:center; color:#FFFFFF; padding-bottom:5.31914893617021%; line-height: 1.5; }
+
+}

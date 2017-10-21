@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="HTML_Editor" />
+		<meta name="author" content="John.c Wei" />
+
+		<title>HTML_Editor</title>
+
+		<link href="css/reset.css" rel="stylesheet" />
+		<link href="css/HTML_Editor.css" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<div id="HTML_Editor">
+
+			<div class="left_block">
+				<div class="draggable-item">
+					<div class="img_logoBlock" name="logoBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_sideArticleBlock" name="sideArticleBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_singleArticleBlock" name="singleArticleBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_titleBlock" name="titleBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_textBlock" name="textBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_tripleArticleBlock" name="tripleArticleBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_doubleArticleBlock" name="doubleArticleBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_hrBlock" name="hrBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_buttonBlock" name="buttonBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_imageBlock" name="imageBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_doubleImageBlock" name="doubleImageBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_tripleImageBlock" name="tripleImageBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_spacerBlock" name="spacerBlock"></div>
+				</div>
+				<div class="draggable-item">
+					<div class="img_socialBlock" name="socialBlock"></div>
+				</div>
+			</div>
+
+			<div id="right_output">
+				<div class="container">
+					<div class="one"></div>
+				</div>
+			</div>
+
+			<div id="templates">
+
+				<div class="logoBlock out_blocks">
+					<div class="close">X</div>
+					<div class="upload_img">
+						<img src="css/img/right_output/258x150.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="sideArticleBlock out_blocks">
+					<div class="close">X</div>
+					<div class="container2">
+						<div class="left">
+							<img src="css/img/right_output/166x130.jpg" alt="">
+						</div>
+						<div class="right">
+							<div class="title" contenteditable="true">
+								Title
+							</div>
+							<div class="text" contenteditable="true">
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+							</div>
+							<div class="button" contenteditable="true">
+								BUTTON
+							</div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+
+				<div class="singleArticleBlock out_blocks">
+					<div class="close">X</div>
+					<div class="container2">
+						<div class="img">
+							<img src="css/img/right_output/534x200.jpg" alt="">
+						</div>
+						<div class="title" contenteditable="true">
+							Section Title
+						</div>
+						<div class="text" contenteditable="true">
+							Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+						</div>
+						<div class="button" contenteditable="true">
+							BUTTON
+						</div>
+					</div>
+				</div>
+
+				<div class="titleBlock out_blocks">
+					<div class="close">X</div>
+					<div class="container2">
+						<div class="title" contenteditable="true">
+							Section Title
+						</div>
+					</div>
+				</div>
+
+				<div class="textBlock out_blocks">
+					<div class="close">X</div>
+					<div class="container2">
+						<div class="text" contenteditable="true">
+							Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.<br/>
+							<br/>
+							Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+						</div>
+					</div>
+				</div>
+
+				<div class="tripleArticleBlock out_blocks">
+					<div class="close">X</div>
+					<div class="container2">
+						<div class="block">
+							<div class="img">
+								<img src="css/img/right_output/166x90.jpg" alt="">
+							</div>
+							<div class="title" contenteditable="true">
+								Title
+							</div>
+							<div class="text" contenteditable="true">
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+							</div>
+							<div class="button" contenteditable="true">
+								BUTTON
+							</div>
+						</div>
+						<div class="block">
+							<div class="img">
+								<img src="css/img/right_output/166x90.jpg" alt="">
+							</div>
+							<div class="title" contenteditable="true">
+								Title
+							</div>
+							<div class="text" contenteditable="true">
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+							</div>
+							<div class="button" contenteditable="true">
+								BUTTON
+							</div>
+						</div>
+						<div class="block">
+							<div class="img">
+								<img src="css/img/right_output/166x90.jpg" alt="">
+							</div>
+							<div class="title" contenteditable="true">
+								Title
+							</div>
+							<div class="text" contenteditable="true">
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+							</div>
+							<div class="button" contenteditable="true">
+								BUTTON
+							</div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+
+				<div class="doubleArticleBlock out_blocks">
+					<div class="close">X</div>
+					<div class="container2">
+						<div class="block">
+							<div class="img">
+								<img src="css/img/right_output/258x100.jpg" alt="">
+							</div>
+							<div class="title" contenteditable="true">
+								Title
+							</div>
+							<div class="text" contenteditable="true">
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+							</div>
+							<div class="button" contenteditable="true">
+								BUTTON
+							</div>
+						</div>
+						<div class="block">
+							<div class="img">
+								<img src="css/img/right_output/258x100.jpg" alt="">
+							</div>
+							<div class="title" contenteditable="true">
+								Title
+							</div>
+							<div class="text" contenteditable="true">
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+							</div>
+							<div class="button" contenteditable="true">
+								BUTTON
+							</div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+
+				<div class="hrBlock out_blocks">
+					<div class="close">X</div>
+					<div class="container2">
+						<hr/>
+					</div>
+				</div>
+
+				<div class="buttonBlock out_blocks">
+					<div class="close">X</div>
+					<div class="container2">
+						<div class="button" contenteditable="true">
+							BUTTON
+						</div>
+					</div>
+				</div>
+
+				<div class="imageBlock out_blocks">
+					<div class="close">X</div>
+					<div class="img">
+						<img src="css/img/right_output/570x200.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="doubleImageBlock out_blocks">
+					<div class="close">X</div>
+					<div class="img">
+						<img src="css/img/right_output/285x180.jpg" alt="">
+					</div>
+					<div class="img">
+						<img src="css/img/right_output/285x180.jpg" alt="">
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+
+				<div class="tripleImageBlock out_blocks">
+					<div class="close">X</div>
+					<div class="img">
+						<img src="css/img/right_output/190x160.jpg" alt="">
+					</div>
+					<div class="img">
+						<img src="css/img/right_output/190x160.jpg" alt="">
+					</div>
+					<div class="img">
+						<img src="css/img/right_output/190x160.jpg" alt="">
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+
+				<div class="spacerBlock out_blocks">
+					<div class="close">X</div>
+					<br/>
+				</div>
+
+				<div class="socialBlock out_blocks">
+					<div class="close">X</div>
+					<div class="text" contenteditable="true">
+						<br/>
+						Address and Contacts
+					</div>
+					<div class="icon_group">
+						<img src="css/img/right_output/facebook_ok.png" alt="">
+						<img src="css/img/right_output/google+_ok.png" alt="">
+						<img src="css/img/right_output/twitter_ok.png" alt="">
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+
+			</div>
+
+			<div class="dragged-item">
+				
+			</div>
+
+		</div>
+
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/jquery.iframe-transport.js"></script>
+		<script src="js/jquery.fileupload.js"></script>
+
+	</body>
+
+</html>
+
+<script>
+
+// 拖曳
+var Dragger = (function($){
+	var dragging = false;
+	var originX = 0;
+	var originY = 0;
+	return {
+		dragging : dragging,
+		originX : originX,
+		originY : originY
+	}
+})(jQuery);
+
+$('#HTML_Editor').find('.draggable-item').mousedown(function(e){
+
+	// 開始拖曳
+	Dragger.dragging = true;
+	Dragger.originX = e.clientX - $(this).get(0).offsetLeft;
+	Dragger.originY = e.clientY - $(this).get(0).offsetTop + $('#HTML_Editor').find('.left_block').scrollTop();
+
+	// 建立物件於.dragged-item
+	$('#HTML_Editor').find('.dragged-item').html( $(this).html() );
+	$('#HTML_Editor').find('.dragged-item').css({
+		top: $(this).get(0).offsetTop + $('#HTML_Editor').find('.left_block').scrollTop(),
+		left: $(this).get(0).offsetLeft
+	});
+	
+});
+
+$('body').mousemove(function(e){
+
+	// 滑鼠拖曳移動
+	if(Dragger.dragging) {
+
+		$('#HTML_Editor').find('.dragged-item').css({
+			top: e.clientY - Dragger.originY,
+			left: e.clientX - Dragger.originX
+		});
+
+	}
+
+});
+// 拖曳END
+
+// 放下
+$('body').mouseup(function(e){
+
+	if (Dragger.dragging) {
+		// 放入右邊
+		if (e.clientX > $('#HTML_Editor').find('.left_block').get(0).offsetWidth) {
+			// 拖入物件名稱
+			var item_name = $('#HTML_Editor').find('.dragged-item').children().attr('name'); // logoBlock
+			console.log('item_name = ' + item_name);
+			// 拖入物件的DOM
+			var $input_dom = $('#templates').find('.'+item_name);
+			console.log('$input_dom = ' + $input_dom);
+			// 插在這個DOM後
+			var $insert_point;
+			// 存放插入點
+			var insert_points = [];
+			if ($('#right_output>.container').find('div').length == 1) {
+				// 沒東西
+				$insert_point = $('#right_output').find('.container>.one');
+			} else {
+				// 取得所有插入點
+				for (i=0;i<$('#right_output').find('.container>div').length-1;i++) {
+					insert_points[i] = $('#right_output').find('.container>div')[i+1].offsetTop + $('#right_output').find('.container>div')[i+1].offsetHeight/2;
+					console.log(insert_points);
+				}
+				// 判斷放開Y
+				var y_point = e.clientY + $('#right_output').scrollTop();
+				// 比對位置
+				for (i=0;i<insert_points.length;i++) {
+					if (y_point < insert_points[i]) {
+						$insert_point = $('#right_output').find('.container>div:nth-child('+(+i+1)+')');
+						console.log('insert index : ' + (+i+1));
+						break;
+					}
+				}
+			}
+
+			// 都不是就插在最後
+			if (typeof $insert_point == "undefined") {
+				$insert_point = $('#right_output').find('.container>div:last');
+			}
+			console.log('insert_point : ');
+			console.log($insert_point);
+
+			// 插入
+			$insert_point.after($input_dom.clone());
+
+			// 註冊刪除功能
+			$('.close').click(function(){
+				$(this).parent().remove();
+			});
+
+		}
+
+		// 清空拖曳
+		$('#HTML_Editor').find('.dragged-item').html('');
+		Dragger.dragging = false;
+	}
+
+});
+
+
+</script>
